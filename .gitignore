@@ -1,0 +1,75 @@
+# Archivos de datos específicos del proyecto
+# Los datasets principales están en data/ y se mantienen en el repo
+# Ignorar solo archivos temporales y procesados
+
+# Archivos de matrices de similitud (archivos grandes)
+models/cosine_sim*.dat
+*.dat
+
+# Archivos temporales de procesamiento
+data/netflix_full_*.csv
+data/temp_*.csv
+outputs/*.png
+outputs/*.html
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
